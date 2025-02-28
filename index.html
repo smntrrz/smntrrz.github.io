@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About [Client's Name] - Expert SEO Content Writer & Web Services Provider">
+    <title>About Me - [Client's Name]</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        /* Profile Image */
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: -75px;
+            border: 5px solid #fff;
+            animation: bounceIn 1.5s;
+        }
+
+        /* Headings */
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-top: 10px;
+        }
+
+        h2 {
+            color: #666;
+            font-size: 20px;
+            margin-top: 5px;
+        }
+
+        /* Paragraph */
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            margin-top: 40px;
+            padding: 20px;
+            background: #007BFF;
+            color: #fff;
+            border-radius: 10px;
+        }
+
+        .portfolio-item {
+            display: inline-block;
+            width: 45%;
+            margin: 10px;
+            padding: 10px;
+            background: #fff;
+            color: #333;
+            border-radius: 5px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            margin-top: 30px;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .contact-form button:hover {
+            background: #0056b3;
+        }
+
+        /* Social Media Buttons */
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background: #007BFF;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 50%;
+            text-align: center;
+            margin: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .social-icons a:hover {
+            background: #0056b3;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes bounceIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            .portfolio-item {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+        <h1>Hi, I'm Ian Simon Torres</h1>
+        <h2>SEO Content Writer & Web Services Provider</h2>
+        <p>
+            I specialize in creating SEO-optimized content that ranks websites higher on Google.
+            With years of experience in digital marketing and content strategy, I help businesses grow online.
+        </p>
+
+        <!-- Portfolio Section -->
+        <div class="portfolio">
+            <h2>📝 Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <p><strong>Project Name 1</strong></p>
+                <p>SEO content strategy for a leading tech company.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="Project 2">
+                <p><strong>Project Name 2</strong></p>
+                <p>Website optimization for a high-ranking blog.</p>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>📩 Contact Me</h2>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/client-profile" target="_blank">🔗</a>
+            <a href="https://twitter.com/client-profile" target="_blank">🐦</a>
+            <a href="https://github.com/client-profile" target="_blank">💻</a>
+        </div>
+    </div>
+
+</body>
+</html>
